@@ -14,10 +14,9 @@ Here are some ideas to get you started: -->
 
 ![](https://komarev.com/ghpvc/?username=ash20pk&color=blueviolet&style=flat)
 
-[![Github activity graph](https://activity-graph.herokuapp.com/graph?username=ash20pk&theme=react-dark&hide_border=true&color=BDDFFF&line=6E93B5&point=BDDFFF)](https://git.io/akshay2211&hide_border=true)
-
  ## Contributions 💪
-![snake gif](https://github.com/ash20pk/ash20pk/blob/output/github-contribution-grid-snake.svg)
+[![Ash's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ash20pk&bg_color=000000&color=4c9e65&line=569e4c&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 <p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ash20pk&theme=prussian&show_icons=true&count_private=true&hide_border=true" alt="ash20pk" />
