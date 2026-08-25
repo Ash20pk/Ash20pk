@@ -123,7 +123,8 @@ DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain 
 ## 📊 GitHub stats
 
 <div align="center">
-<img src="github-metrics.svg" alt="GitHub metrics" width="100%"/>
+<img src="stats.svg" alt="GitHub stats" width="49%"/>
+<img src="langs.svg" alt="Most used languages" width="49%"/>
 </div>
 
 ## 🤝 Let's build something
