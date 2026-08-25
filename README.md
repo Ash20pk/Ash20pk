@@ -13,43 +13,42 @@
 
 </div>
 
-## 👋 About
+## 👋 Hey, I'm Ash
 
-I'm a **Forward Deployed Engineering Lead at [OpenBox AI](https://github.com/openbox-ai)**, where I sit between customers and the product — turning messy real-world requirements into working AI systems, fast.
+I lead Forward Deployed Engineering at **[OpenBox AI](https://github.com/openbox-ai)**. Basically I sit between our customers and the product, take whatever messy problem they bring, and turn it into an AI system that actually works. Usually faster than anyone expects.
 
-Before AI agents, I spent years deep in **web3**: smart contracts, DeFi protocols, ZK demos, and developer education across EVM, Move, CosmWasm, Cairo, and Sui ecosystems. That background shaped how I build today — **secure by default, permissioned by design, and obsessed with developer experience**.
+Before agents took over my life, I spent years deep in web3. Smart contracts, DeFi protocols, ZK demos, and a lot of developer education across EVM, Move, CosmWasm, Cairo and Sui. That's where I picked up the habits I still build with today: secure by default, permissioned by design, and a bit obsessed with developer experience.
 
 ```ts
 const ash = {
-  role:     "FDE Lead · OpenBox AI",
-  focus:    ["AI agent infrastructure", "governed & permissioned agents", "RAG & knowledge graphs"],
-  roots:    ["DeFi", "tokenization", "ZK", "multi-chain dApps"],
-  ships:    "prototypes on Monday, production by Friday",
-  openTo:   ["agent runtimes", "web3 × AI", "devtools", "NLP"],
+  role:    "FDE Lead at OpenBox AI",
+  focus:   ["AI agent infrastructure", "governed and permissioned agents", "RAG and knowledge graphs"],
+  roots:   ["DeFi", "tokenization", "ZK", "multi-chain dApps"],
+  motto:   "prototype on Monday, production by Friday",
+  openTo:  ["agent runtimes", "web3 x AI", "devtools", "NLP"],
 };
 ```
 
-## 🧰 Skills
+## 🧰 What I work with
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🤖 AI & Agents**
+**🤖 AI and Agents**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLM_APIs-412991?style=flat-square&logo=openai&logoColor=white)
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-412991?style=flat-square&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square)
 ![Knowledge Graphs](https://img.shields.io/badge/Knowledge_Graphs-6A1B9A?style=flat-square)
 ![Agent Sandboxing](https://img.shields.io/badge/Agent_Sandboxing-00897B?style=flat-square)
 
-Agent runtimes & sandboxes · governed / policy-enforced agents · conversational RAG · SDK knowledge-graph embeddings · AI product prototyping
+Agent runtimes and sandboxes, policy-governed agents, conversational RAG, knowledge-graph embeddings of SDKs, and quick AI product prototypes
 
 </td>
 <td width="50%" valign="top">
 
-**⛓️ Blockchain & Smart Contracts**
+**⛓️ Blockchain and Smart Contracts**
 
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -58,7 +57,7 @@ Agent runtimes & sandboxes · governed / policy-enforced agents · conversationa
 ![CosmWasm](https://img.shields.io/badge/CosmWasm-6F4CFF?style=flat-square)
 ![ZK](https://img.shields.io/badge/Zero_Knowledge-1A1A2E?style=flat-square)
 
-DeFi & lending protocols · ERC-404 fractionalized NFTs · tokenization · on-chain games · ZK demos · chain stress-testing
+DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain games, ZK demos, and stress-testing chains for fun
 
 </td>
 </tr>
@@ -77,7 +76,7 @@ DeFi & lending protocols · ERC-404 fractionalized NFTs · tokenization · on-ch
 </td>
 <td width="50%" valign="top">
 
-**🌐 Ecosystems shipped on**
+**🌐 Chains I've shipped on**
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 ![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat-square&logo=polygon&logoColor=white)
@@ -96,45 +95,40 @@ DeFi & lending protocols · ERC-404 fractionalized NFTs · tokenization · on-ch
 </tr>
 </table>
 
-## 🚀 Featured Work
+## 🚀 Stuff I'm proud of
 
-| Project | What it is | Stack |
+| Project | What it does | Stack |
 |---|---|---|
-| **[BerthOS](https://github.com/Ash20pk/BerthOS)** | A persistent, kernel-permissioned sandbox for AI agents — real filesystem, browser, and shell, not a bag of stateless API calls | `TypeScript` |
-| **[eleven-governed-agent](https://github.com/Ash20pk/eleven-governed-agent)** | Policy-governed AI agent with enforced guardrails | `Python` |
-| **[SDKAnalyzer](https://github.com/Ash20pk/SDKAnalyzer)** | AI-powered SDK analyzer that builds knowledge-graph embeddings of SDKs | `Python` |
+| **[BerthOS](https://github.com/Ash20pk/BerthOS)** | A persistent, kernel-permissioned sandbox for AI agents. Real filesystem, browser and shell, not a bag of stateless API calls | `TypeScript` |
+| **[eleven-governed-agent](https://github.com/Ash20pk/eleven-governed-agent)** | An AI agent with policies and guardrails that are actually enforced, not just prompted | `Python` |
+| **[SDKAnalyzer](https://github.com/Ash20pk/SDKAnalyzer)** | Points an LLM at any SDK and builds knowledge-graph embeddings out of it | `Python` |
 | **[nftmarketplace](https://github.com/Ash20pk/nftmarketplace)** ⭐ | Fractionalized NFT marketplace built on ERC-404 | `Solidity` |
-| **[Enigma](https://github.com/Ash20pk/Enigma)** | Advanced DeFi protocol built on 1inch APIs | `TypeScript` |
+| **[Enigma](https://github.com/Ash20pk/Enigma)** | A DeFi protocol built on top of 1inch APIs | `TypeScript` |
 | **[nexus-playground](https://github.com/Ash20pk/nexus-playground)** | Visual composer studio for the Avail Nexus SDK | `TypeScript` |
-| **[aptos-asset-template](https://github.com/Ash20pk/aptos-asset-template)** | Fungible & non-fungible asset implementation on Aptos | `Move` |
-| **[breaksomnia](https://github.com/Ash20pk/breaksomnia)** | On-chain chain-reaction simulator that stress-tests the Somnia blockchain live | `TypeScript` |
-| **[Interactive-ZK-demo](https://github.com/Ash20pk/Interactive-ZK-demo)** | Visual, interactive walkthrough of zero-knowledge concepts | `Python` |
+| **[aptos-asset-template](https://github.com/Ash20pk/aptos-asset-template)** | Fungible and non-fungible asset implementation on Aptos | `Move` |
+| **[breaksomnia](https://github.com/Ash20pk/breaksomnia)** | A chain-reaction simulator that posts every explosion on-chain to stress test Somnia live | `TypeScript` |
+| **[Interactive-ZK-demo](https://github.com/Ash20pk/Interactive-ZK-demo)** | Learn zero-knowledge concepts visually instead of through 40 pages of math | `Python` |
 
 <details>
-<summary><b>More builds</b> — games, education templates & experiments</summary>
+<summary><b>More builds</b> (games, education templates and random experiments)</summary>
 <br/>
 
-- 🎮 **On-chain games** — [flappy-bird](https://github.com/Ash20pk/flappy-bird), [breakchain](https://github.com/Ash20pk/breakchain) (dino game as a chain stress-test), [CardGame](https://github.com/Ash20pk/CardGame) (1v1 Phaser on Core), [sherlock_game](https://github.com/Ash20pk/sherlock_game)
-- 📚 **Developer education templates** — [Blockstay-dApp](https://github.com/Ash20pk/Blockstay-dApp) (Fuel), [ticketing-blended-app](https://github.com/Ash20pk/ticketing-blended-app) (Fluent, Rust + Solidity), [lending-dApp-mantra](https://github.com/Ash20pk/lending-dApp-mantra), [Calculator-dApp](https://github.com/Ash20pk/Calculator-dApp) (Aptos Move), [Loyalty-dApp](https://github.com/Ash20pk/Loyalty-dApp) (Sui), [erc20-starknet-cairo-boilerplate](https://github.com/Ash20pk/erc20-starknet-cairo-boilerplate)
-- 🧠 **AI apps** — [conversational_rag](https://github.com/Ash20pk/conversational_rag), [resume-builder-ai](https://github.com/Ash20pk/resume-builder-ai), [ai-image-editor](https://github.com/Ash20pk/ai-image-editor), [sentimental_analysis](https://github.com/Ash20pk/sentimental_analysis) (blind compute on Nillion)
-- 🔐 **ZK & privacy** — [Rock-Paper-Scissor-ZK](https://github.com/Ash20pk/Rock-Paper-Scissor-ZK), [privado-poc](https://github.com/Ash20pk/privado-poc)
+- 🎮 **On-chain games** [flappy-bird](https://github.com/Ash20pk/flappy-bird), [breakchain](https://github.com/Ash20pk/breakchain) (the dino game as a chain stress test), [CardGame](https://github.com/Ash20pk/CardGame) (1v1 Phaser game on Core), [sherlock_game](https://github.com/Ash20pk/sherlock_game)
+- 📚 **Developer education templates** [Blockstay-dApp](https://github.com/Ash20pk/Blockstay-dApp) (Fuel), [ticketing-blended-app](https://github.com/Ash20pk/ticketing-blended-app) (Fluent, Rust + Solidity), [lending-dApp-mantra](https://github.com/Ash20pk/lending-dApp-mantra), [Calculator-dApp](https://github.com/Ash20pk/Calculator-dApp) (Aptos Move), [Loyalty-dApp](https://github.com/Ash20pk/Loyalty-dApp) (Sui), [erc20-starknet-cairo-boilerplate](https://github.com/Ash20pk/erc20-starknet-cairo-boilerplate)
+- 🧠 **AI apps** [conversational_rag](https://github.com/Ash20pk/conversational_rag), [resume-builder-ai](https://github.com/Ash20pk/resume-builder-ai), [ai-image-editor](https://github.com/Ash20pk/ai-image-editor), [sentimental_analysis](https://github.com/Ash20pk/sentimental_analysis) (blind compute on Nillion)
+- 🔐 **ZK and privacy** [Rock-Paper-Scissor-ZK](https://github.com/Ash20pk/Rock-Paper-Scissor-ZK), [privado-poc](https://github.com/Ash20pk/privado-poc)
 
 </details>
 
-## 📊 GitHub Stats
+## 📊 GitHub stats
 
 <div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ash20pk&theme=tokyonight&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=ash20pk&theme=tokyonight&hide_border=true&background=0d1117" />
-<br/>
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=ash20pk&theme=tokyonight&layout=compact&hide_border=true&bg_color=0d1117&langs_count=8" />
-<br/><br/>
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ash20pk&bg_color=0d1117&color=4fc3f7&line=4fc3f7&point=ffffff&area=true&hide_border=true" />
+<img src="github-metrics.svg" alt="GitHub metrics" width="100%"/>
 </div>
 
-## 🤝 Let's build
+## 🤝 Let's build something
 
-Open to collaborating on **agent runtimes, web3 × AI, and developer tooling**. Off the keyboard I travel, meet new people, and talk about random stuff — +1 if you love tech or finance.
+Always up for collaborating on agent runtimes, web3 x AI, or developer tooling. When I'm not at the keyboard I'm travelling, meeting new people, and talking about random stuff. Bonus points if you love tech or finance.
 
 <div align="center">
 
