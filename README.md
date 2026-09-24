@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=FDE+Lead+%40+OpenBox+AI;Building+sandboxes+%26+runtimes+for+AI+agents;Shipped+dApps+on+10%2B+chains;Solidity+%C2%B7+Rust+%C2%B7+Move+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=FDE+Lead+%40+OpenBox+AI;Building+sandboxes+%26+runtimes+for+AI+agents;Coordination+%26+context+for+coding+agents;Shipped+dApps+on+10%2B+chains;Solidity+%C2%B7+Rust+%C2%B7+Move+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG"/>
 
 </div>
 
@@ -22,7 +22,7 @@ Before agents took over my life, I spent years deep in web3. Smart contracts, De
 ```ts
 const ash = {
   role:    "FDE Lead at OpenBox AI",
-  focus:   ["AI agent infrastructure", "governed and permissioned agents", "RAG and knowledge graphs"],
+  focus:   ["AI agent infrastructure", "multi-agent coordination", "governed and permissioned agents", "agents on hardware"],
   roots:   ["DeFi", "tokenization", "ZK", "multi-chain dApps"],
   motto:   "prototype on Monday, production by Friday",
   openTo:  ["agent runtimes", "web3 x AI", "devtools", "NLP"],
@@ -43,7 +43,7 @@ const ash = {
 ![Knowledge Graphs](https://img.shields.io/badge/Knowledge_Graphs-6A1B9A?style=flat-square)
 ![Agent Sandboxing](https://img.shields.io/badge/Agent_Sandboxing-00897B?style=flat-square)
 
-Agent runtimes and sandboxes, policy-governed agents, conversational RAG, knowledge-graph embeddings of SDKs, and quick AI product prototypes
+Agent runtimes and sandboxes, multi-agent coordination, codebase maps for agents, policy-governed agents, conversational RAG, knowledge-graph embeddings of SDKs, and quick AI product prototypes
 
 </td>
 <td width="50%" valign="top">
@@ -99,24 +99,25 @@ DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain 
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[InkAgent](https://github.com/Ash20pk/InkAgent)** | Agentic e-reader firmware for Xteink and friends. The agent quizzes you on the passage instead of summarising it, and you bring your own AI | `C` `ESP32` `Node` |
+| **[knoot](https://github.com/Ash20pk/knoot)** | Realtime coordination for coding agents. Shared memory that flags itself stale, claims and leases, and conflict briefs so several agents can work one repo without colliding | `Rust` |
 | **[BerthOS](https://github.com/Ash20pk/BerthOS)** | A persistent, kernel-permissioned sandbox for AI agents. Real filesystem, browser and shell, not a bag of stateless API calls | `TypeScript` |
+| **[CircuitMap](https://github.com/Ash20pk/CircuitMap)** | One markdown file that maps a whole repo for agents at four zoom levels. Full file coverage in ~700 tokens, kept fresh by a CLI, CI gate and GitHub App | `Rust` |
+| **[beat-the-reviewer](https://github.com/Ash20pk/beat-the-reviewer)** | A game: ten risky requests and a reviewer that scores your argument with a probability. Get under 0.5 or the PR doesn't merge. [Play it](https://beat-the-reviewer.vercel.app) | `TypeScript` |
+| **[southward](https://github.com/Ash20pk/southward)** | AMC exam prep for Indian MBBS students. Question bank, timed mocks, spaced-repetition flashcards and AI role-play OSCE patients. [Live](https://southward.vercel.app) | `Next.js` |
 | **[eleven-governed-agent](https://github.com/Ash20pk/eleven-governed-agent)** | An AI agent with policies and guardrails that are actually enforced, not just prompted | `Python` |
 | **[SDKAnalyzer](https://github.com/Ash20pk/SDKAnalyzer)** | Points an LLM at any SDK and builds knowledge-graph embeddings out of it | `Python` |
 | **[nftmarketplace](https://github.com/Ash20pk/nftmarketplace)** ⭐ | Fractionalized NFT marketplace built on ERC-404 | `Solidity` |
-| **[Enigma](https://github.com/Ash20pk/Enigma)** | A DeFi protocol built on top of 1inch APIs | `TypeScript` |
-| **[nexus-playground](https://github.com/Ash20pk/nexus-playground)** | Visual composer studio for the Avail Nexus SDK | `TypeScript` |
-| **[aptos-asset-template](https://github.com/Ash20pk/aptos-asset-template)** | Fungible and non-fungible asset implementation on Aptos | `Move` |
-| **[breaksomnia](https://github.com/Ash20pk/breaksomnia)** | A chain-reaction simulator that posts every explosion on-chain to stress test Somnia live | `TypeScript` |
-| **[Interactive-ZK-demo](https://github.com/Ash20pk/Interactive-ZK-demo)** | Learn zero-knowledge concepts visually instead of through 40 pages of math | `Python` |
 
 <details>
-<summary><b>More builds</b> (games, education templates and random experiments)</summary>
+<summary><b>More builds</b> (web3, games, education templates and random experiments)</summary>
 <br/>
 
+- ⛓️ **Web3 builds** [Enigma](https://github.com/Ash20pk/Enigma) (DeFi on 1inch APIs), [nexus-playground](https://github.com/Ash20pk/nexus-playground) (visual composer for Avail Nexus), [aptos-asset-template](https://github.com/Ash20pk/aptos-asset-template), [breaksomnia](https://github.com/Ash20pk/breaksomnia) (chain-reaction stress test on Somnia)
 - 🎮 **On-chain games** [flappy-bird](https://github.com/Ash20pk/flappy-bird), [breakchain](https://github.com/Ash20pk/breakchain) (the dino game as a chain stress test), [CardGame](https://github.com/Ash20pk/CardGame) (1v1 Phaser game on Core), [sherlock_game](https://github.com/Ash20pk/sherlock_game)
 - 📚 **Developer education templates** [Blockstay-dApp](https://github.com/Ash20pk/Blockstay-dApp) (Fuel), [ticketing-blended-app](https://github.com/Ash20pk/ticketing-blended-app) (Fluent, Rust + Solidity), [lending-dApp-mantra](https://github.com/Ash20pk/lending-dApp-mantra), [Calculator-dApp](https://github.com/Ash20pk/Calculator-dApp) (Aptos Move), [Loyalty-dApp](https://github.com/Ash20pk/Loyalty-dApp) (Sui), [erc20-starknet-cairo-boilerplate](https://github.com/Ash20pk/erc20-starknet-cairo-boilerplate)
 - 🧠 **AI apps** [conversational_rag](https://github.com/Ash20pk/conversational_rag), [resume-builder-ai](https://github.com/Ash20pk/resume-builder-ai), [ai-image-editor](https://github.com/Ash20pk/ai-image-editor), [sentimental_analysis](https://github.com/Ash20pk/sentimental_analysis) (blind compute on Nillion)
-- 🔐 **ZK and privacy** [Rock-Paper-Scissor-ZK](https://github.com/Ash20pk/Rock-Paper-Scissor-ZK), [privado-poc](https://github.com/Ash20pk/privado-poc)
+- 🔐 **ZK and privacy** [Interactive-ZK-demo](https://github.com/Ash20pk/Interactive-ZK-demo), [Rock-Paper-Scissor-ZK](https://github.com/Ash20pk/Rock-Paper-Scissor-ZK), [privado-poc](https://github.com/Ash20pk/privado-poc)
 
 </details>
 
