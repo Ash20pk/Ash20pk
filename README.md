@@ -1,33 +1,48 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Aswin%20Kumar&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Forward%20Deployed%20Engineer%20%C2%B7%20AI%20Agents%20%C2%B7%20Web3&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Aswin%20Kumar&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20Relations%20%C2%B7%20Solutions%20Architect%20%C2%B7%20AI%20Agents&descAlignY=60&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/aswin-kumar-7399971b3/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://twitter.com/ash20pk"><img src="https://img.shields.io/badge/@ash20pk-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 <a href="mailto:ash20pk@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Singapore-🇸🇬-2c5364?style=for-the-badge"/>
+<a href="https://www.instagram.com/guyintech_en/"><img src="https://img.shields.io/badge/Instagram-69K-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/SF_Bay_Area-2c5364?style=for-the-badge"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=FDE+Lead+%40+OpenBox+AI;Building+sandboxes+%26+runtimes+for+AI+agents;Coordination+%26+context+for+coding+agents;Shipped+dApps+on+10%2B+chains;Solidity+%C2%B7+Rust+%C2%B7+Move+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=Lead+Solutions+Architect+%40+OpenBox+AI;10+open+source+integrations+and+SDKs;Voice+agents+on+ElevenLabs;2x+founder;Teaching+69K+devs+on+Instagram" alt="Typing SVG"/>
 
 </div>
 
 ## 👋 Hey, I'm Ash
 
-I lead Forward Deployed Engineering at **[OpenBox AI](https://github.com/openbox-ai)**. Basically I sit between our customers and the product, take whatever messy problem they bring, and turn it into an AI system that actually works. Usually faster than anyone expects.
+I lead solutions architecture and developer relations at **[OpenBox AI](https://github.com/openbox-ai)**. I own the open source integrations and server-side SDKs developers adopt OpenBox through, I'm the first person developers reach when they get stuck, and I lead 2 forward deployed engineers who turn client problems into agents that work in production.
+
+I'm a 2x founder: Spotlight Media (a 500K+ audience, started at 17) and Asterix Network (a Substrate blockchain taken to seed stage).
 
 Before agents took over my life, I spent years deep in web3. Smart contracts, DeFi protocols, ZK demos, and a lot of developer education across EVM, Move, CosmWasm, Cairo and Sui. That's where I picked up the habits I still build with today: secure by default, permissioned by design, and a bit obsessed with developer experience.
 
 ```ts
 const ash = {
-  role:    "FDE Lead at OpenBox AI",
-  focus:   ["AI agent infrastructure", "multi-agent coordination", "governed and permissioned agents", "agents on hardware"],
+  role:    "Lead Solutions Architect, Developer Relations at OpenBox AI",
+  focus:   ["SDKs and integrations", "developer experience", "voice agents", "AI agent infrastructure", "multi-agent coordination", "governed and permissioned agents", "agents on hardware"],
   roots:   ["DeFi", "tokenization", "ZK", "multi-chain dApps"],
   motto:   "prototype on Monday, production by Friday",
-  openTo:  ["agent runtimes", "web3 x AI", "devtools", "NLP"],
+  openTo:  ["developer experience", "agent runtimes", "devtools", "web3 x AI"],
 };
 ```
+
+## 🔌 Integrations I own at OpenBox
+
+LangChain · LangGraph · Temporal (Python SDK) · n8n · OpenRouter · Airbyte · Persona · TrustedRouter · Salesforce Agentforce · OpenShell
+
+Each one ships with docs and runnable examples, and I keep them working as the upstream frameworks change.
+
+## 🧩 Merged upstream
+
+- **[Deepgram JS SDK](https://github.com/deepgram/deepgram-js-sdk/pulls?q=is%3Apr+author%3AAsh20pk+is%3Amerged)** async iteration for streaming sockets
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit/pulls?q=is%3Apr+author%3AAsh20pk+is%3Amerged)** human-in-the-loop fix for Angular
+- **[Drizzle ORM](https://github.com/drizzle-team/drizzle-orm/pulls?q=is%3Apr+author%3AAsh20pk+is%3Amerged)** · **[Argo Workflows](https://github.com/argoproj/argo-workflows/pulls?q=is%3Apr+author%3AAsh20pk+is%3Amerged)** · **[ethereum.org](https://github.com/ethereum/ethereum-org-website/pulls?q=is%3Apr+author%3AAsh20pk+is%3Amerged)**
 
 ## 🧰 What I work with
 
@@ -99,13 +114,14 @@ DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain 
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[eleven-governed-agent](https://github.com/Ash20pk/eleven-governed-agent)** | An ElevenLabs voice agent where every turn goes through a proxy (a Custom LLM endpoint), so policy checks run inside the live conversation, plus post-call governance on each finished call | `Python` `ElevenAgents` |
+| **[IsomerDB](https://github.com/Ash20pk/IsomerDB)** | One database, write once, read in any projection, with a MongoDB wire gateway. Jepsen: 15 of 15 workloads valid, 0 stale reads | `Postgres` `Kubernetes` |
 | **[InkAgent](https://github.com/Ash20pk/InkAgent)** | Agentic e-reader firmware for Xteink and friends. The agent quizzes you on the passage instead of summarising it, and you bring your own AI | `C` `ESP32` `Node` |
 | **[knoot](https://github.com/Ash20pk/knoot)** | Realtime coordination for coding agents. Shared memory that flags itself stale, claims and leases, and conflict briefs so several agents can work one repo without colliding | `Rust` |
 | **[BerthOS](https://github.com/Ash20pk/BerthOS)** | A persistent, kernel-permissioned sandbox for AI agents. Real filesystem, browser and shell, not a bag of stateless API calls | `TypeScript` |
 | **[CircuitMap](https://github.com/Ash20pk/CircuitMap)** | One markdown file that maps a whole repo for agents at four zoom levels. Full file coverage in ~700 tokens, kept fresh by a CLI, CI gate and GitHub App | `Rust` |
 | **[beat-the-reviewer](https://github.com/Ash20pk/beat-the-reviewer)** | A game: ten risky requests and a reviewer that scores your argument with a probability. Get under 0.5 or the PR doesn't merge. [Play it](https://beat-the-reviewer.vercel.app) | `TypeScript` |
 | **[southward](https://github.com/Ash20pk/southward)** | AMC exam prep for Indian MBBS students. Question bank, timed mocks, spaced-repetition flashcards and AI role-play OSCE patients. [Live](https://southward.vercel.app) | `Next.js` |
-| **[eleven-governed-agent](https://github.com/Ash20pk/eleven-governed-agent)** | An AI agent with policies and guardrails that are actually enforced, not just prompted | `Python` |
 | **[SDKAnalyzer](https://github.com/Ash20pk/SDKAnalyzer)** | Points an LLM at any SDK and builds knowledge-graph embeddings out of it | `Python` |
 | **[nftmarketplace](https://github.com/Ash20pk/nftmarketplace)** ⭐ | Fractionalized NFT marketplace built on ERC-404 | `Solidity` |
 
@@ -121,6 +137,10 @@ DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain 
 
 </details>
 
+## 🎬 Teaching
+
+I teach coding through short animations on **[Instagram](https://www.instagram.com/guyintech_en/)**: around 69K followers and 946.6K views in the last 30 days, every video voiced with my own custom ElevenLabs voice.
+
 ## 📊 GitHub stats
 
 <div align="center">
@@ -130,7 +150,7 @@ DeFi and lending protocols, ERC-404 fractionalized NFTs, tokenization, on-chain 
 
 ## 🤝 Let's build something
 
-Always up for collaborating on agent runtimes, web3 x AI, or developer tooling. When I'm not at the keyboard I'm travelling, meeting new people, and talking about random stuff. Bonus points if you love tech or finance.
+Always up for collaborating on developer tooling, SDKs, agent runtimes, or web3 x AI. When I'm not at the keyboard I'm travelling, meeting new people, and talking about random stuff. Bonus points if you love tech or finance.
 
 <div align="center">
 
